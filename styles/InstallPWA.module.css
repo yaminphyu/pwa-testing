@@ -1,0 +1,36 @@
+.install-banner {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #2d2d2d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    z-index: 1000;
+    border-top: 1px solid #ccc;
+  }
+  
+  .app-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+  }
+  
+  .install-info {
+    flex-grow: 1;
+    margin-left: 15px;
+  }
+  
+  .get-now-button {
+    background-color: #ff4b84;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  

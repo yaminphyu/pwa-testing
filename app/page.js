@@ -27,6 +27,7 @@ export default function Home() {
     <>
       <InstallPWA />
       <main className="flex min-h-screen flex-col items-center justify-center p-24">
+        <a href="https://test-v2.138hk.vip/en/" target="_blank">Click here</a>
         <ul>
           {data.map((item) => (
             <li key={item.id} className="text-lg list-decimal">{item.title}</li>

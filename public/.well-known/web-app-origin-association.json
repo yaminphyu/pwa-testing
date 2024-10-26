@@ -1,0 +1,7 @@
+{
+    "web_apps": [
+      {
+        "manifest": "https://pwa-testing-nine.vercel.app/manifest.json"
+      }
+    ]
+  }

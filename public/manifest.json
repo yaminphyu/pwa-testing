@@ -26,8 +26,12 @@
     "orientation": "portrait",
     "url_handlers": [
       {
-        "origin": "https://test-v2.138hk.vip/en/",
-        "paths": ["/path/*"]
+        "origin": "https://test-v2.138hk.vip/",
+        "paths": [
+          "/en/*",
+          "/th/*",
+          "/hk/*"
+        ]
       }
     ]
   }

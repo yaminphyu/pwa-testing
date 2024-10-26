@@ -3,7 +3,11 @@
       {
         "manifest": "https://pwa-testing-nine.vercel.app/manifest.json",
         "details": {
-          "paths": ["/path/*"]
+          "paths": [
+            "/en/*",
+            "/th/*",
+            "/hk/*"
+          ]
         }
       }
     ]

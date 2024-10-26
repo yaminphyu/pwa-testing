@@ -28,7 +28,7 @@ export default function Home() {
       <InstallPWA />
       <main className="flex max-h-screen flex-col items-center justify-center p-24">
         <div className="h-12 w-32 bg-slate-400 text-center flex justify-center items-center rounded-md mb-10">
-          <a href="https://test-v2.138hk.vip/en/" target="_blank" rel="noopener noreferrer">Click here</a>
+          <a href="https://dev-v2.138hk.vip" target="_blank" rel="noopener noreferrer">Click here</a>
         </div>
         <ul>
           {data.map((item) => (

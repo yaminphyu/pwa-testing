@@ -4,9 +4,7 @@
         "manifest": "https://pwa-testing-nine.vercel.app/manifest.json",
         "details": {
           "paths": [
-            "/en/*",
-            "/th/*",
-            "/hk/*"
+            "/*"
           ]
         }
       }

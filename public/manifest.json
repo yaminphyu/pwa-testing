@@ -24,9 +24,10 @@
     "start_url": "/",
     "display": "standalone",
     "orientation": "portrait",
+    "capture_links": "existing_client_event",
     "url_handlers": [
       {
-        "origin": "https://test-v2.138hk.vip",
+        "origin": "https://dev-v2.138hk.vip",
         "paths": [
           "/en/*",
           "/th/*",

@@ -21,7 +21,7 @@
     ],
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
-    "start_url": "https://dev-v2.138hk.vip/hk/",
+    "start_url": "/",
     "display": "standalone",
     "orientation": "portrait"
   }

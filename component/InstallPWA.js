@@ -71,20 +71,24 @@ const InstallPWA = () => {
 
     console.log('addToHomescreenPrompt >>> ', prompt);
 
-  return (
-    <div>
-        <div className={styles['install-banner']}>
-            <img src="/weibo/favicon.png" alt="App Icon" className="app-icon" />
-            <button 
-                className={styles['get-now-button']}
-                onClick={
-                    promptToInstall
-                }>
-            GET NOW
-            </button>
+    if (!isVisible) {
+        return null;
+    }
+
+    return (
+        <div>
+            <div className={styles['install-banner']}>
+                <img src="/weibo/favicon.png" alt="App Icon" className="app-icon" />
+                <button 
+                    className={styles['get-now-button']}
+                    onClick={
+                        promptToInstall
+                    }>
+                GET NOW
+                </button>
+            </div>
         </div>
-    </div>
-  );
+    );
 };
 
 export default InstallPWA;

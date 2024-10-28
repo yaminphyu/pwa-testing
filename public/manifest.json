@@ -22,18 +22,6 @@
     "theme_color": "#FFFFFF",
     "background_color": "#FFFFFF",
     "start_url": "https://dev-v2.138hk.vip/hk/",
-    "scope": "/",
     "display": "standalone",
-    "orientation": "portrait",
-    "capture_links": "existing_client_event",
-    "url_handlers": [
-      {
-        "origin": "https://dev-v2.138hk.vip",
-        "paths": [
-          "/en/*",
-          "/th/*",
-          "/hk/*"
-        ]
-      }
-    ]
+    "orientation": "portrait"
   }
